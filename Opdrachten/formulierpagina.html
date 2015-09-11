@@ -23,47 +23,47 @@
 
         <p> Contactgegevens:</p>
             <form>
-                <label>Naam</label>
+                <label for="naam">Naam</label>
                 <br>
-                <input type="text" name="naam" id="naam">
+                <input type="text" id="naam" required>
                 <br>
                 
                 <label for="bedrijf">Bedrijf</label>
                 <br>
-                <input type="text" name="bedrijf" id="bedrijf">
+                <input type="text" name="bedrijf" id="bedrijf" required>
                 <br>
                 
                 <label for="adres">Adres</label>
                 <br>
-                <input type="text" name="adres" id="adres">
+                <input type="text" name="adres" id="adres" required>
                 <br>
                 
                 <label for="postcode">Postcode</label>
                 <br>
-                <input type="text" name="postcode" id="postcode">
+                <input type="text" name="postcode" id="postcode" required>
                 <br>
                 
                 <label for="plaats">Plaats</label>
                 <br>
-                <input type="text" name="plaats" id="plaats">
+                <input type="text" name="plaats" id="plaats" required>
                 <br>
                 
                 <label for="telefoon">Telefoon</label>
                 <br>
-                <input type="number" name="telefoon" id="telefoon">
+                <input type="tel" name="telefoon" id="telefoon">
                 <br>
                 
                 <label for="email">Email</label>
                 <br>
-                <input type="email" name="email" id="email">
+                <input type="email" name="email" id="email" required>
                 <br>
                 <br>
                 
                 <p>Ik wil mij aanmelden</p>
                 
-                <input type="radio" name="keuze" id="project" value="Voor een project"> <label for="project">Voor een project</label>
+                <input type="radio" name="keuze" id="project" value="Voor een project" required> <label for="project">Voor een project</label>
                 <br>
-                <input type="radio" name="keuze" id="stagebedrijf" value="Als stagebedrijf"> <label for="stagebedrijf">Als stagebedrijf</label>
+                <input type="radio" name="keuze" id="stagebedrijf" value="Als stagebedrijf" required> <label for="stagebedrijf">Als stagebedrijf</label>
                 <br>
                 
                 <fieldset>
@@ -125,15 +125,8 @@
                     Plaats <input type="text"><br>
                     Sector <input type="text"><br>
                     Core Business <input type="text"><br>
-                    <br>
                     Opmerking <input type="text">
                 </fieldset>
-        
-        
-        
-            </form>
-            
-            
-
+              </form>
     </body>
 </html>
